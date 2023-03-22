@@ -1,0 +1,93 @@
+.contenedor{
+  width:100vw;
+  height:100vh;
+  background-color: rgb(34, 33, 31);
+  display: grid;
+  gap: 10px;
+  grid-template: 100px auto auto 100px / 0.5fr 1fr 0.5fr;
+}
+body{
+padding: 1 1 1 2;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #000;
+text-align: center;
+}
+
+.logo{
+  background-color: #D5A6BD;
+  width: 100px;
+  height: 50px;
+  margin: 25px 20px 10px 20px;
+  text-align: center;
+}
+
+h4{
+  margin: 30px 1px 1px 400px;
+}
+.encabezamiento{
+  background-color: #B6D7A8 ;
+  grid-row: 1/2;
+  grid-column: 1/4;
+  display: flex
+  
+}
+
+
+.salir{
+  background-color:#9FC5E8;
+  width: 100px;
+  height: 50px;
+  margin: 25px 20px 10px 500px;
+  text-align: center;
+}
+
+.menu{
+background-color: #A1C3C8;
+grid-row: 2/4;
+grid-column: 1/2;
+}
+
+.contenido{
+  background-color:#B4A7D6;
+  grid-row: 2/4;
+  grid-column: 2/3;
+  display:flex;
+  gap:50px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.item{
+  width:200px;
+  height:200px;
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+
+.itemDiferente{
+  align-self: flex-end;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.area1{
+background-color: #F9CB9C;
+grid-row: 2/3;
+grid-column: 3/4;
+}
+
+.area2{
+background-color: #EA9999;
+grid-row: 3/4;
+grid-column: 3/4;
+}
+
+.pieDePagina{
+  background:#FFE599;
+  grid-row: 4/5;
+  grid-column: 1/4;
+}
